@@ -1,0 +1,31 @@
+# Deep Learning Core
+torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+transformers>=4.41.2,<4.44
+peft>=0.10.0
+bitsandbytes>=0.43.0
+
+# Datasets e aceleração
+datasets>=2.19
+accelerate>=0.29
+
+# Embeddings, utilitários
+sentencepiece
+faiss-cpu
+sentence-transformers
+
+# Data Science e métricas
+pandas
+tqdm
+rich
+scikit-learn>=1.4
+scipy
+numpy>=1.26,<2.2.0
+
+# Outros
+openai
+huggingface_hub
+python-dotenv
+
+# TensorFlow (opcional, se for usar tf-keras)
+tf-keras
+

@@ -1,0 +1,83 @@
+# Ambiente Python
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.swp
+*.swo
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Modelos e checkpoints locais
+*.ckpt
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.tflite
+*.pb
+
+# Pre-processameto
+data_qa/*
+!data_qa/README.md
+
+# HuggingFace/transformers cache
+.cache/
+datasets_cache/
+transformers_cache/
+hf_cache/
+*.log
+*.tmp
+*.bak
+
+# Dados de indexação
+*.index
+*.pkl
+
+# Dados do FAISS e mappings
+faiss_chunks.index
+faiss_mapping.pkl
+
+# Dados de QA gerados (logs, validados, inválidos)
+data_qa/user_questions.jsonl
+data_qa/user_questions_qa.jsonl
+data_qa/user_questions_invalid.jsonl
+
+# Diretórios de runs e TensorBoard
+runs/
+tb_logs/
+lightning_logs/
+events.out.tfevents.*
+*.tensorboard
+
+# Resultados/outputs temporários
+outputs/
+output/
+*.out
+*.err
+
+# Modelos LoRA e merges locais
+lora_llama_finetuned/
+merged_model/
+
+# Uploads/downloads temporários
+downloads/
+uploads/
+*.zip
+*.tar
+*.tar.gz
+
+# Arquivos de configuração pessoais
+.env
+*.env
+.env.*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
