@@ -637,7 +637,7 @@ except Exception as e:
     print(f"Tempo total: {tempo_total_h:.2f}h, custo US$: {custo_total_usd:.2f}")
 EOF
 
-cat << 'EOF' > processing/index_chunks_faiss.py
+cat << 'EOF' > processing/faiss_index.py
 #!/usr/bin/env python3
 """
 Autogenerates index FAISS.
