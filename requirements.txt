@@ -25,6 +25,7 @@ numpy>=1.26,<2.2.0
 openai
 huggingface_hub
 python-dotenv
+requests
 
 # TensorFlow (opcional, se for usar tf-keras)
 tf-keras
